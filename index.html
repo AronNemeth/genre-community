@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genre actor community</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        img {
+            max-height: 70vh;
+            max-width: 100%;
+        }
+
+        .text {
+            padding: 20px;
+            text-align: justify;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="genre-community.png" alt="Your Image">
+        <div class="text">
+            <p>In this network the series are connected if they had at least one common actor in the 100 most important characters. The nodes’ colors are based upon the communities they belong. The communities are created using the Louvain Algorithm. The nodes’ locations are determined by the genre they belong to (hand coded by us). We were interested whether some kind of actor-genre specialization is observable this way (which would be true if certain colors belonged to certain genres), however it is not. The 10 most viewed shows are marked (we did not mark everything because it would make everything unreadable).</p>
+        </div>
+    </div>
+</body>
+</html>
